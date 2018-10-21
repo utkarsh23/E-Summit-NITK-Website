@@ -1,0 +1,40 @@
+html,
+body
+{
+    height: 100%;
+}
+
+.main-logo {
+    width: 50%;
+    height: auto;
+    max-width: 30rem;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-logo {
+        width: 70%;
+        margin-top: 30%;
+    }
+}
+
+#countdown
+{
+    margin: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    font-family: Roboto;
+    position: relative;
+    font-weight: 600;
+}
+
+.btn
+{
+    background-color: rgba(35, 168, 245, 0.932);
+}
